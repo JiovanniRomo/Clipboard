@@ -86,7 +86,10 @@ html {
     justify-items     : center;
 }
 
-.main--snippets article {
+.main--snippets article,
+.main--features article {
+    width             : 90%;
+    margin            : 0 auto;
     display           : grid;
     grid-template-rows: repeat(2, auto);
     justify-items     : center;
@@ -100,6 +103,15 @@ html {
     margin-bottom: 40px;
 }
 
-.section-devices {
-    width: 270px;
+.main--snippets img {
+    padding: 20px;
 }
+
+.section-devices {
+    width: 350px;
+}
+
+.main--features, .main--features img {
+    margin-top: 60px;
+}
+
