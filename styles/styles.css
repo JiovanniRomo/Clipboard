@@ -22,7 +22,6 @@ html {
     grid-template-rows   : repeat(7, auto);
     justify-items        : center;
     align-items          : center;
-    row-gap              : 20px;
     font-family          : 'Bai Jamjuree';
 }
 
@@ -52,6 +51,7 @@ html {
     font-size  : 1.5rem;
     font-weight: 400;
     color      : var(--GrayishBlue);
+    padding    : 20px;
 }
 
 .btn {
@@ -82,10 +82,7 @@ html {
     align-content        : center;
     justify-items        : center;
     line-height          : 25px;
-}
-
-.main--desc .desc--p {
-    margin-top: 20px;
+    margin-top           : 40px;
 }
 
 .main--snippets {
@@ -125,7 +122,9 @@ html {
 
 .main--features,
 .main--features img {
-    margin-top: 60px;
+    margin-top   : 60px;
+    display      : grid;
+    justify-items: center;
 }
 
 .main--sponsors {
@@ -136,7 +135,10 @@ html {
 }
 
 .main--downloads {
-    margin-top: 100px;
+    margin-top        : 100px;
+    display           : grid;
+    grid-template-rows: repeat(4, .5fr);
+    justify-items     : center;
 }
 
 
@@ -147,12 +149,18 @@ html {
     display           : grid;
     grid-template-rows: repeat(7, auto);
     justify-items     : center;
-    background-color  : darkgray;
+    background-color  : rgb(252, 246, 246);
     row-gap           : 0;
 }
 
-.main--footer img {
-    width: 50px;
+.main--footer .footer--logo {
+    width     : 50px;
+    margin-top: 40px;
+}
+
+.main--footer ul {
+    display      : grid;
+    justify-items: center;
 }
 
 .main--footer ul li {
@@ -162,4 +170,18 @@ html {
 
 .main--footer ul li a {
     text-decoration: none;
+    color          : var(--DarkGrayishBlue);
+    font-size      : 1.5rem;
+    font-weight    : 400;
+}
+
+.main--footer .social-networks {
+    display              : grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap           : 40px;
+    padding              : 40px;
+}
+
+.main--footer .social-networks img {
+    width: 25px;
 }
