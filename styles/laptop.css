@@ -1,0 +1,37 @@
+.main--header {
+    background-image : url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size  : auto;
+}
+
+.main--desc {
+    width: 600px;
+}
+
+.botones {
+    display: flex;
+}
+
+.botones button {
+    margin : 20px;
+}
+
+/* .botones button {
+    
+} */
+
+/* Sponsors Section */
+.main--sponsors {
+    display              : grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows   : 0;
+    column-gap           : 60px;
+    margin-top           : 100px;
+    align-items          : center;
+    padding              : 20px;
+}
+
+/* Downloads Section*/
+.main--downloads {
+    grid-template-rows: repeat(3, auto);
+}
