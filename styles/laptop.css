@@ -9,16 +9,22 @@
 }
 
 .botones {
-    display: flex;
+    flex-direction: row;
 }
 
 .botones button {
-    margin : 20px;
+    margin: 20px;
 }
 
-/* .botones button {
-    
-} */
+/* Snippets Section */
+.main--snippets {
+    grid-template-rows: repeat(2, auto);
+}
+
+.main--snippets .des--snippets {
+    display           : grid;
+    grid-template-rows: repeat(2, auto);
+}
 
 /* Sponsors Section */
 .main--sponsors {

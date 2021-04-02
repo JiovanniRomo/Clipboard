@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 768px)">
     <link rel="stylesheet" href="./styles/laptop.css" media="(min-width: 1024px)">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="Description" content="Author: Jiovanni Romo. Are you tired of don't remember the things?
+        Forget that issue! CLipboard is here to help u! ">
     <title>Clipboard</title>
 </head>
 
@@ -31,8 +34,9 @@
             </div>
 
         </section>
+        
         <section class="main--snippets">
-            <article>
+            <article class="snippets--title">
                 <h2 class="desc--title">Keep track of your snippets</h2>
                 <p class="desc--p">
                     Clipboard instantly stores any item you copy in the cloud, meaning you can access
@@ -41,11 +45,11 @@
                 </p>
             </article>
 
-            <picture>
-                <img src="./images/image-computer.png" alt="computer check" class="section-devices">
-            </picture>
 
             <div class="des--snippets">
+                <picture>
+                    <img src="./images/image-computer.png" alt="computer check" class="section-devices">
+                </picture>
                 <article>
                     <h2 class="desc--title">Quick Search</h2>
                     <p class="desc--p">
@@ -139,8 +143,11 @@
                 <br /> iCloud and you're ready to start adding to
                 <br /> your clipboard.
             </p>
-            <button class="btn btn--green">Download for iOS</button>
-            <button class="btn btn--blue">Download for Mac</button>
+
+            <div class="botones">
+                <button class="btn btn--green">Download for iOS</button>
+                <button class="btn btn--blue">Download for Mac</button>
+            </div>
         </section>
 
         <footer class="main--footer">
