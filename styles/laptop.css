@@ -18,6 +18,7 @@
 }
 
 /* Snippets Section */
+
 .main--snippets {
   /* grid-template-rows: repeat(2, auto); */
   display: flex;
@@ -52,6 +53,12 @@
 }
 
 /* Features Section */
+.main--features .features--container {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  margin-top: 60px;
+}
+
 .features--sub-container {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -59,6 +66,8 @@
 
 .features--sub-container article {
   width: auto;
+  padding: 0px 60px 60px 60px;
+  align-content: flex-start;
 }
 
 /* Downloads Section*/
