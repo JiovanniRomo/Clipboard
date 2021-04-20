@@ -29,7 +29,6 @@
 /* Snippets Section */
 
 .main--snippets {
-  /* grid-template-rows: repeat(2, auto); */
   display: flex;
   flex-wrap: wrap;
 }
